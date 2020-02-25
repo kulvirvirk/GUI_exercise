@@ -13,10 +13,11 @@ picture = [
 for i in range(len(picture)):
   for j in range(len(picture[i])):
     if picture[i][j] == 0:
-      print(' ', end='')
+      print(' ', end='') # use end='' to print on same line bcz by default print() goes to next line
     elif picture[i][j] == 1:
       print('*', end='')
-  print()
+  print() #need new line after every row
+
 print('\n\n\n')
 
 
