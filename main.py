@@ -9,3 +9,14 @@ picture = [
   [0,0,0,1,0,0,0]
 ]
 
+print(len(picture[0]))
+
+for i in range(len(picture)):
+  for j in range(len(picture[i])):
+    if picture[i][j] == 0:
+      print(' ', end=' ')
+    elif picture[i][j] == 1:
+      print('*', end=' ')
+  print()
+
+
